@@ -1,43 +1,54 @@
 body{
     font-family: arial;
     color: #333;
+    background-image: url('https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    /* background-position-x: -5vw; */
+    background-origin: content-box;
 }
 h1{
     font-weight: normal;
-    margin: 20px auto;
+    margin:  10px auto 20px auto;
     text-align: center;
+    color: rgb(1, 1, 53);
+    /* font-size: 90; */
+    font-size: 3em;
 }
 form{
-    width: 500px;
-    margin: 20px auto;
+    align-content: center;
+    width: 600px;
+    margin: 180px 330px auto auto   ;
+    border-radius: 10px;
+    border: 3px solid ;
 }
 input{
     display: block;
     padding: 8px 16px;
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 10px auto;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 3px solid #ccc;
+    border: 3px solid rgb(1, 1, 53);
     outline: none !important;
 }
 
 /* validation styles */
 
 input.valid{
-    border-color: #36cc36;
+    border-color: rgb(1, 1, 53);
 }
 input.invalid{
-    border-color: orange;
+    border-color: rgb(1, 1, 53);
 }
 input + p{
     font-family: arial;
-    font-size: 0.9em;
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: 900;
     text-align: center;
     margin: 0 10px;
-    color: orange;
+    color: rgb(100, 26, 26);
+
     opacity: 0;
     height: 0;
 }
